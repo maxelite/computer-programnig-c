@@ -1,0 +1,32 @@
+/* Print numbers 0, 1, 2, ..., userNum as shown, with each number indented by that number of spaces. For each printed line, print the leading spaces, then the number, and then a newline. Hint: Use i and j as loop variables (initialize i and j explicitly). Note: Avoid any other spaces like spaces after the printed number. Ex: userNum = 3 prints:
+0
+ 1
+  2
+   3
+   
+   */
+   
+   
+   #include <stdio.h>
+
+int main(void) {
+   int userNum;
+   int i;
+   int j;
+
+   userNum = 3;
+
+   for(i = 0; i <= userNum; i++){
+		for(j = 0; j < i; j++){
+			printf(" ");
+		}
+		printf("%d\n", i);
+	}
+
+   return 0;
+}
+
+/* Given numRows and numCols, print a list of all seats in a theater. Rows are numbered, columns lettered, as in 1A or 3E. Print a space after each seat, including after the last. Ex: numRows = 2 and numCols = 3 prints:
+1A 1B 1C 2A 2B 2C 
+*/
+
