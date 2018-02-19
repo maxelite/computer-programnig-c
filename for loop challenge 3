@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) {
+
+int userNum;
+int i;
+
+userNum = 3;
+
+printf("Ready!\n);
+for(i = userNum; i > 0; i --) {
+printf("%d\n", i);
+
+} 
+
+printf("Start!\n");
+
+
+
+
+
+
+return 0;
+}
